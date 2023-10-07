@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="descripción" content="ejemplo de html5 con CSS">
+	<meta name="keywords" content="HTML5, CSS, JavaScript">
+	<title>BasketSolution</title>
+	<link rel="stylesheet" type="text/css" href="estilitos.css">
+    <link rel="icon" href="jlogo.ico">
+	
+</head>
+<body >
+	<div id="agrupar">
+		<div id="heder">
+		<header id="cabecera">
+			<h1 id="titulop">BasketSolution</h1>
+            <img src="jlogo.png" alt="logo de BasketSolution">
+	    </header></div>
+		<nav>
+			<ul id="menu">
+			  <li><a href="BasketSl.html">Inicio</a></li>
+			  <li>
+				<a href="#">Categorías</a>
+				
+				<ul id="desp">
+					<li><a href="u12 M.html">U-12 M</a></li>
+					<li><a href="u12 F.html">U-12 F</a></li>
+					<li><a href="u14 M.html">U-14 M</a></li>
+					<li><a href="u14 F.html">U-14 F</a></li>
+					<li><a href="u16 M.html">U-16 M</a></li>
+					<li><a href="u16 F.html">U-16 F</a></li>
+					<li><a href="u18 M.html">U-18 M</a></li>
+					<li><a href="u18 F.html">U-18 F</a></li>
+					<li><a href="u23.html">U-23</a></li>
+				</ul>
+			  </li>
+			  <li><a href="basketequipos.html">Clubes</a></li>
+			</ul>
+		  </nav>
+		  
+			<!--<nav >
+				<ul id="menu">
+					<li><a href="BasketSl.html">Principal</a></li>
+					
+					<li ><a href="#">Categorias</a></li>
+					<ul id="cats">
+						<li><a href="BasketSl.html">U-12</a></li>
+						<li><a href="BasketSl.html">U-14</a></li>
+						<li><a href="BasketSl.html">U-16</a></li>
+					
+					</ul>
+					
+					<li><a href="BasketSl.html">Clubes</a></li>
+					<li><a href="BasketSl.html">Contactos</a></li>
+				</ul>
+			</nav>-->
+		<section id="seccion">
+			<article>
+				<header>
+					<hgroup> 
+						<h1>Informacion de los clubes</h1>
+						<h2>Lee con atención</h2><br><br>
+					</hgroup>
+					<time datetime="2018-01-12" pubdate="Publicado el 12-01-2018"></time>
+				</header>
+				
+				  
+				   <figure>
+                    <p>LEONES</p>
+				   	<img id="imgsxd" src="data:image/jpeg;base64,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">
+				   	<figcaption>
+                        Somos un club innovador, integrado y apasionado por el basquetball, reconocido en el ámbito naciona <br>5813 3373
+				   	</figcaption>
+                       <p>AGUILAS</p>
+                    <img id="imgsxd" src="imgs/aguilas.jpg">
+                    	<figcaption>
+                        Club de Baloncesto Aguilas Guatemala más rápidos, más fuertes... <br>5450 5808
+				   	</figcaption>
+
+					   <p>WARRIORS</p>
+					   <img id="imgsxd" src="imgs/warriorsims.jpg">
+						   <figcaption>
+							Club de Baloncesto Warriors Club Guatemala segundo sábado de reactivacion,
+							Coach: Oscar Hernández y Fernando Flores.
+						  </figcaption>
+
+
+						  <p>GRIZZLIES</p>
+                    <img id="imgsxd" src="imgs/grizzlies.png">
+                    	<figcaption>
+							Club de Baloncesto Grizzlies Guatemala <br>5118 4815
+				   	</figcaption>
+
+
+
+					   <p>INFINITY</p>
+					   <img id="imgsxd" src="imgs/infinity.jpg">
+						   <figcaption>
+							Academia deportiva...<br>5808 8527
+						  </figcaption>
+
+						  <p>PEPESQUEROS</p>
+						  <img id="imgsxd" src="pepesquerosimg.jpg">
+							  <figcaption>
+								Somos una academia de baloncesto de alto rendimiento creada por el Coach Erick “Dino” Romero <br>coachdinoromero@gmail.com
+							 </figcaption>
+							 
+							 
+							 <p>MYM</p>
+							 <img id="imgsxd" src="imgs/mymimgs.jpg">
+								 <figcaption>
+									BALONCESTO CON VALORES Y FILOSOFIA DE VIDA!!! 
+								</figcaption>
+
+
+
+
+
+								<p>TALENTS</p>
+								<img id="imgsxd" src="imgs/talentsimg.jpg">
+									<figcaption>
+										Primer Club de Baloncesto en Guatemala 🇬🇹🏀 12 años de experiencia ⭐️ <br>4211 6219
+<br>
+										clubtalentsgt@gmail.com
+								   </figcaption>
+   
+								   <p>PUMAS</p>
+								   <img id="imgsxd" src="imgs/pumas.jpg">
+									   <figcaption>
+										En pumas se aprende divirtiéndose!!<br>
+
+										Si deseas tener más información escribir a pumasbasketballbo<br>301 5508201
+									  </figcaption>
+
+									  <p>HURACANES</p>
+									  <img id="imgsxd" src="imgs/huracanes.jpg">
+										  <figcaption>
+											Ubicado en el Municipio de Malambo como ente promotor del Baloncesto en niños, niñas, adolescentes <br>5450 5808
+										 </figcaption>
+
+										
+
+											<p>JAGUARES</p>
+											<img id="imgsxd" src="imgs/jaguaresimg.jpg">
+												<figcaption>
+													Somos un Club dedicado a la enseñanza de Baloncesto con valores. 🏀 🐯
+													Único en Guatemala <br>4959 1780
+											   </figcaption>
+
+											   <p>HOP-ZONE</p>
+											   <img id="imgsxd" src="imgs/hopzone.png">
+												   <figcaption>
+													Dedicated To The Promotion And Development Of Basketball!Offering camps, personal training, developm<br>coacho@hoopzonebasketball.com
+												  </figcaption>
+
+												  <p>LITEGUA</p>
+												  <img id="imgsxd" src=" https://th.bing.com/th/id/R.0ddff1e1dec17b98e4cb4090a6b4cfe6?rik=M6Df8jxVLTLqFg&pid=ImgRaw&r=0">
+													  <figcaption>
+													  Club de Baloncesto apoyado por fundación Litegua <br>
+													 </figcaption>
+
+													 <p>THE PROCESS</p>
+													 <img id="imgsxd" src=" https://www.hoopsfix.com/wp-content/uploads/2014/10/Hoopsfix-Logo.png">
+														 <figcaption>
+															We are “The Process Basketball”; an international sports development service, having ventures wo <br>tremaine@theprocessbasketball.org
+<br>
+															TheProcessBasketball.org
+														</figcaption>
+
+				   </figure>
+				   <footer>
+				   	<p>Comentarios (0)</p>
+				   </footer>
+			</article>
+			<article>
+				<div id="mensaje">
+				<header>
+					<hgroup> 
+						<b>Visión para basquetSolution:</b><br>
+
+				BasquetSolution es un software innovador que revoluciona la forma en que se llevan a cabo las inscripciones en la CDAG. Nuestra visión es hacer que el proceso de inscripción sea más fácil y ágil para todos los atletas y entrenadores involucrados.
+				
+				Queremos ser el líder en el mercado de software deportivo y ser reconocidos por nuestra tecnología sofisticada y servicio al cliente excepcional. Nuestra visión es ofrecer una plataforma en línea que permite inscripciones sin papeleo y sin problemas.
+				
+				En resumen, nuestra visión es ser la solución definitiva para la inscripción deportiva en la CDAG, un software confiable, fácil de usar y accesible para todos, con el objetivo final de mejorar la experiencia deportiva de nuestros clientes. <br><br><br><b>Misión de basquetSolution:</b><br>
+
+				Nuestra misión en basquetSolution es simplificar el proceso de inscripción en la CDAG, para que los deportistas y entrenadores puedan dedicar su tiempo y energía a lo que realmente importa: entrenar y competir.
+				
+				Perseguimos la calidad y el compromiso con nuestros clientes. Queremos proporcionar un software que ahorre tiempo y sea fácil de usar, asegurándonos de que cada cliente tenga una experiencia excepcional y sin problemas al utilizar nuestros servicios.
+				
+				Nos esforzamos por ser un líder en el mercado de software deportivo, destacando por nuestra innovación y compromiso en la mejora continua de nuestros servicios. Con nuestra solución de inscripción en línea, queremos simplificar la vida de nuestros clientes, permitiéndoles ahorrar tiempo y esfuerzo en el proceso de inscripción.
+				
+				En resumen, nuestra misión es ofrecer un servicio de inscripción deportiva de alta calidad, innovador y accesible para todos, con el objetivo final de mejorar la experiencia deportiva de nuestros clientes.
+			
+					</hgroup>
+					<time datetime="2018-03-18" pubdate="Publicado el 12-01-2018"></time>
+				</header>
+			</div>
+			</article>
+		</section>
+		<aside id="columna">
+			<blockquote><b>Visión para basquetSolution:</b><br>
+
+				BasquetSolution es un software innovador que revoluciona la forma en que se llevan a cabo las inscripciones en la CDAG. Nuestra visión es hacer que el proceso de inscripción sea más fácil y ágil para todos los atletas y entrenadores involucrados.
+				
+				Queremos ser el líder en el mercado de software deportivo y ser reconocidos por nuestra tecnología sofisticada y servicio al cliente excepcional. Nuestra visión es ofrecer una plataforma en línea que permite inscripciones sin papeleo y sin problemas.
+				
+				En resumen, nuestra visión es ser la solución definitiva para la inscripción deportiva en la CDAG, un software confiable, fácil de usar y accesible para todos, con el objetivo final de mejorar la experiencia deportiva de nuestros clientes. <br><br><br><b>Misión de basquetSolution:</b><br>
+
+				Nuestra misión en basquetSolution es simplificar el proceso de inscripción en la CDAG, para que los deportistas y entrenadores puedan dedicar su tiempo y energía a lo que realmente importa: entrenar y competir.
+				
+				Perseguimos la calidad y el compromiso con nuestros clientes. Queremos proporcionar un software que ahorre tiempo y sea fácil de usar, asegurándonos de que cada cliente tenga una experiencia excepcional y sin problemas al utilizar nuestros servicios.
+				
+				Nos esforzamos por ser un líder en el mercado de software deportivo, destacando por nuestra innovación y compromiso en la mejora continua de nuestros servicios. Con nuestra solución de inscripción en línea, queremos simplificar la vida de nuestros clientes, permitiéndoles ahorrar tiempo y esfuerzo en el proceso de inscripción.
+				
+				En resumen, nuestra misión es ofrecer un servicio de inscripción deportiva de alta calidad, innovador y accesible para todos, con el objetivo final de mejorar la experiencia deportiva de nuestros clientes.
+			
+			</blockquote>
+		</aside>
+		<footer id="pie">
+			&copy; pagina diseñada por Jose Rivera 2023
+		</footer>
+	</div>
+</body>
+</html>
