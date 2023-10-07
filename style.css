@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+    display: block;
+}
+header{
+    text-align: center;
+    position: relative;
+    
+}
+header img{
+    display: flex;
+    
+    width: 100px;
+    height:100px; 
+    left: 100%;
+}
+
+#titulop{
+    max-width: 800px;
+    font-size: 450%;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-shadow: 8px 6px 0 #8b0000;
+    position: absolute;
+    top: 40%;
+    right: 6%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 5%;}
+h1{
+    font: bold 20px verdana, san-serif;
+    text-transform: uppercase;
+}
+#mensaje{
+    display: none;
+}
+h2{
+    font: bold 15px verdana, san-serif;
+}
+body{
+    text-align: center;
+   background-color: #cdd1cf80;
+
+}
+#agrupar{
+    width: 98%;
+    margin: 8px auto;
+    text-align: left;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/011/114/145/non_2x/red-and-white-business-background-blank-modern-background-with-dot-pattern-design-free-vector.jpg);
+    background-position:0% 60px;
+    background-size:  cover;
+    background-repeat: no-repeat;
+}
+#cabecera{
+    background: rgb(245, 74, 74);
+    border: 1px solid #999;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav li:hover > ul {
+    display: block;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+  
+  nav ul ul li {
+    display: block;
+  }
+
+
+  
+  nav{
+    background: rgb(97, 110, 209);
+    padding: 5px 15px;
+    max-width: 98%;
+}
+body{
+    text-align: center;
+   background-color: #cdd1cf80;
+
+}
+h1{
+    font: bold 20px verdana, san-serif;
+    text-transform: uppercase;
+}
+#tt {
+    text-align: center;
+    text-transform: uppercase;
+    color: #8b0000;
+    text-shadow: 4px 1px 0 #000000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+  }
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  text-align: center;
+  font-size: 120%;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  position: absolute ;
+  right: 48%;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+  
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+#menu li{
+   
+    padding: 5px;
+    font: bold 14px verdana, san-serif;
+}
+#menu > li{
+    float: left;
+}
+#menu  > li > a{
+    padding: 20px 50px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+#menu > li:hover{
+    background-color: bisque;
+}
+#desp > li:hover{
+    background-color: bisque;
+}
+
+
+@media screen and (max-width: 890px){
+    #titulop{
+        font-size: 200%;
+    }
+    #columna{
+       display: none;
+       
+    }
+    #agrupar{
+       background-image: url(https://w0.peakpx.com/wallpaper/958/173/HD-wallpaper-red-squares-square-red-white-colorful.jpg); 
+       background-size: cover;
+    }
+    #mensaje{
+        display: contents;
+    }
+    #tt {
+        text-align: center;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        text-shadow: 8px 6px 0 #8b0000;
+      }
+        /*background-color:rgba(214, 7, 7, 0.2) ;
+        -webkit-filter: blur(15px);
+        backdrop-filter: blur(15px);
+      /*/
+       
+    
+}
