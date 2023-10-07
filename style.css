@@ -182,7 +182,7 @@ button[type="submit"]:hover {
 }
 
 
-@media screen and (max-width: 890px){
+@media screen and (max-width: 1000px){
     #titulop{
         font-size: 200%;
     }
