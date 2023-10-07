@@ -1,0 +1,218 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="descripción" content="ejemplo de html5 con CSS">
+	<meta name="keywords" content="HTML5, CSS, JavaScript">
+	<title>BasketSolution</title>
+	<link rel="stylesheet" type="text/css" href="estilitos.css">
+    <link rel="icon" href="jlogo.ico">
+	
+</head>
+<body >
+	<div id="agrupar">
+		<div id="heder">
+		<header id="cabecera">
+			<h1 id="titulop">BasketSolution</h1>
+            <img src="jlogo.png" alt="logo de BasketSolution">
+	    </header></div>
+		<nav>
+			<ul id="menu">
+			  <li><a href="BasketSl.html">Inicio</a></li>
+			  <li>
+				<a href="#">Categorías</a>
+				
+				<ul id="desp">
+					<li><a href="u12 M.html">U-12 M</a></li>
+					<li><a href="u12 F.html">U-12 F</a></li>
+					<li><a href="u14 M.html">U-14 M</a></li>
+					<li><a href="u14 F.html">U-14 F</a></li>
+					<li><a href="u16 M.html">U-16 M</a></li>
+					<li><a href="u16 F.html">U-16 F</a></li>
+					<li><a href="u18 M.html">U-18 M</a></li>
+					<li><a href="u18 F.html">U-18 F</a></li>
+					<li><a href="u23.html">U-23</a></li>
+				</ul>
+			  </li>
+			  <li><a href="basketequipos.html">Clubes</a></li>
+			</ul>
+		  </nav>
+		  
+			<!--<nav >
+				<ul id="menu">
+					<li><a href="BasketSl.html">Principal</a></li>
+					
+					<li ><a href="#">Categorias</a></li>
+					<ul id="cats">
+						<li><a href="BasketSl.html">U-12</a></li>
+						<li><a href="BasketSl.html">U-14</a></li>
+						<li><a href="BasketSl.html">U-16</a></li>
+					
+					</ul>
+					
+					<li><a href="BasketSl.html">Clubes</a></li>
+					<li><a href="BasketSl.html">Contactos</a></li>
+				</ul>
+
+
+
+codigo secreto:
+
+ CREATE TABLE tabla (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombres VARCHAR(50),
+    apellidos VARCHAR(50),
+    cui INT,
+    aos VARCHAR(50),
+    nacimiento VARCHAR(50),
+    rama VARCHAR(50),
+    club VARCHAR(50),
+    categoria VARCHAR(50),
+    dorsal VARCHAR(50),
+    foto LONGBLOB
+);
+
+
+
+			</nav>-->
+		<section id="seccion">
+			<article>
+				<header>
+					<hgroup> 
+						<h1>Ficha de Inscripción</h1>
+						<h2>Llena lo que se te pide</h2><br><br>
+					</hgroup>
+					<time datetime="2018-01-12" pubdate="Publicado el 12-01-2018"></time>
+				</header>
+				<form   action="conexion.php" method="post" enctype="multipart/form-data">
+					<label for="nombres">Nombres:</label>
+					<input type="text" id="nombres" name="nombres"placeholder="Jose Leonel"><br><br>
+					
+					<label for="apellidos">Apellidos:</label>
+					<input type="text" id="apellidos" name="apellidos" placeholder="Rivera Barrera"><br><br>
+					
+					
+					
+					<label for="cui">CUI:</label>
+					<input type="text" id="cui" name="cui" placeholder="3041890234"><br><br>
+
+					<label for="aos">Años:</label>
+					<input type="text" id="aos" name="aos" placeholder="14"><br><br>
+
+					<label for="fecha_cump">Nacimiento:</label>
+					<input type="text" id="fecha_cump" name="fecha_cump" placeholder="dd/mm/aaaa"><br><br>
+
+					<label for="rama">Rama:</label>
+					<select id="rama" name="rama">
+					  <option value="masculino">Masculino</option>
+					  <option value="femenino">Femenino</option>
+					  
+					</select><br><br>
+					
+					<label for="club">Club:</label>
+					<select id="clubes" name="clubes">
+						<option value="leones">Leones</option>
+						<option value="aguilas">Aguilas</option>
+						<option value="warriors">Warriors</option>
+						<option value="grizzlies">Grizzlies</option>
+						<option value="infinity">Infinity</option>
+						<option value="pepesqueros">Pepesqueros</option>
+						<option value="MYM">MYM</option>
+						<option value="talents">Talents</option>
+						<option value="pumas">Pumas</option>
+						
+						<option value="jaguares">Jaguares</option>
+						<option value="hop-zone">Hop zone</option>
+						<option value="huracanes">Huracanes</option>
+						<option value="litegua">Litegua</option>
+						<option value="theprocess">The Process</option>
+					
+					</select><br><br>
+					
+					<label for="categoria">Categoría:</label>
+					<select id="categoria" name="categoria">
+					  <option value="12">U-12 </option>
+					  
+					  <option value="14">U-14 </option>
+					  
+					  <option value="16">U-16 </option>
+					  
+					  <option value="18">U-18 </option>
+					  
+					  <option value="23">U-23</option>
+					</select><br><br>
+					
+					<label for="dorsal">Dorsal:</label>
+					<input type="text" id="dorsal" name="dorsal" placeholder="29"><br><br>
+					
+					<label for="foto">Foto:</label>
+					<input type="file" id="foto" name="foto"><br><br><br>
+					
+					<input type="submit" value="Enviar"><b><br><br><br><br></b>
+				  </form>
+				  <p>Debes subir una foto como la del ejemplo</p>
+				   <figure>
+				   	<img id="imgsxd" src="https://basquetplus.com/sites/default/files/main/articles/180702-lebron-james-lakers.jpg">
+				   	<figcaption>
+				   		usa esta imagen como ejemplo
+				   	</figcaption>
+				   </figure>
+				   <footer>
+				   	<p>Comentarios (0)</p>
+				   </footer>
+			</article>
+			<article>
+				<div id="mensaje">
+				<header>
+					<hgroup> 
+						<b>Visión para basquetSolution:</b><br>
+
+				BasquetSolution es un software innovador que revoluciona la forma en que se llevan a cabo las inscripciones en la CDAG. Nuestra visión es hacer que el proceso de inscripción sea más fácil y ágil para todos los atletas y entrenadores involucrados.
+				
+				Queremos ser el líder en el mercado de software deportivo y ser reconocidos por nuestra tecnología sofisticada y servicio al cliente excepcional. Nuestra visión es ofrecer una plataforma en línea que permite inscripciones sin papeleo y sin problemas.
+				
+				En resumen, nuestra visión es ser la solución definitiva para la inscripción deportiva en la CDAG, un software confiable, fácil de usar y accesible para todos, con el objetivo final de mejorar la experiencia deportiva de nuestros clientes. <br><br><br><b>Misión de basquetSolution:</b><br>
+
+				Nuestra misión en basquetSolution es simplificar el proceso de inscripción en la CDAG, para que los deportistas y entrenadores puedan dedicar su tiempo y energía a lo que realmente importa: entrenar y competir.
+				
+				Perseguimos la calidad y el compromiso con nuestros clientes. Queremos proporcionar un software que ahorre tiempo y sea fácil de usar, asegurándonos de que cada cliente tenga una experiencia excepcional y sin problemas al utilizar nuestros servicios.
+				
+				Nos esforzamos por ser un líder en el mercado de software deportivo, destacando por nuestra innovación y compromiso en la mejora continua de nuestros servicios. Con nuestra solución de inscripción en línea, queremos simplificar la vida de nuestros clientes, permitiéndoles ahorrar tiempo y esfuerzo en el proceso de inscripción.
+				
+				En resumen, nuestra misión es ofrecer un servicio de inscripción deportiva de alta calidad, innovador y accesible para todos, con el objetivo final de mejorar la experiencia deportiva de nuestros clientes.
+			
+					</hgroup>
+					<time datetime="2018-03-18" pubdate="Publicado el 12-01-2018"></time>
+				</header>
+			</div>
+			</article>
+		</section>
+		<aside id="columna">
+			
+			<blockquote><b>Visión para basquetSolution:</b><br>
+
+				BasquetSolution es un software innovador que revoluciona la forma en que se llevan a cabo las inscripciones en la CDAG. Nuestra visión es hacer que el proceso de inscripción sea más fácil y ágil para todos los atletas y entrenadores involucrados.
+				
+				Queremos ser el líder en el mercado de software deportivo y ser reconocidos por nuestra tecnología sofisticada y servicio al cliente excepcional. Nuestra visión es ofrecer una plataforma en línea que permite inscripciones sin papeleo y sin problemas.
+				
+				En resumen, nuestra visión es ser la solución definitiva para la inscripción deportiva en la CDAG, un software confiable, fácil de usar y accesible para todos, con el objetivo final de mejorar la experiencia deportiva de nuestros clientes. <br><br><br><b>Misión de basquetSolution:</b><br>
+
+				Nuestra misión en basquetSolution es simplificar el proceso de inscripción en la CDAG, para que los deportistas y entrenadores puedan dedicar su tiempo y energía a lo que realmente importa: entrenar y competir.
+				
+				Perseguimos la calidad y el compromiso con nuestros clientes. Queremos proporcionar un software que ahorre tiempo y sea fácil de usar, asegurándonos de que cada cliente tenga una experiencia excepcional y sin problemas al utilizar nuestros servicios.
+				
+				Nos esforzamos por ser un líder en el mercado de software deportivo, destacando por nuestra innovación y compromiso en la mejora continua de nuestros servicios. Con nuestra solución de inscripción en línea, queremos simplificar la vida de nuestros clientes, permitiéndoles ahorrar tiempo y esfuerzo en el proceso de inscripción.
+				
+				En resumen, nuestra misión es ofrecer un servicio de inscripción deportiva de alta calidad, innovador y accesible para todos, con el objetivo final de mejorar la experiencia deportiva de nuestros clientes.
+			</blockquote>
+		</aside>
+		<footer id="pie">
+			&copy; pagina diseñada por Jose Rivera 2023
+		</footer>
+	</div>
+		
+</body>
+</html>
